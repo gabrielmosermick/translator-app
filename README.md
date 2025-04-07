@@ -23,12 +23,25 @@ A simple translator web app built with **Vue.js** frontend and **Python (FastAPI
 ### Backend
 
 ```bash
-cd backend
+cd translation_app
 pip install -r requirements.txt
 uvicorn app:app --reload
 
+Run with Docker:
+docker run -p 8007:8007 translator-backend
+
 ### Frontend
 
-cd frontend
+cd translation_ui
 npm install
 npm run dev
+
+Run with Docker:
+docker run -p 80:80 translator-frontend
+
+---
+
+## 🚀 Deployment
+Deployment is automatic with git push and Render pipelines.
+
+
