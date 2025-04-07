@@ -42,8 +42,6 @@ To run the backend locally, follow these steps:
     uvicorn app:app --reload
     ```
 
-    This will start the backend on `http://localhost:8007`. The `--reload` flag enables automatic reloading during development.
-
 ---
 
 ### 2. **Running Backend with Docker**
